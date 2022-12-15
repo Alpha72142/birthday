@@ -1,0 +1,61 @@
+.about{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url("C:\Users\SAMMURAR\OneDrive - Capgemini\Desktop\smartUI\about\src\component\portfolio\about.jpg");
+    height: 363px;
+    background-position: center;
+    background-size: cover;
+   
+    
+  
+    
+}
+
+.first-info .header{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 3.3rem;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 2vw;
+    font-family: Mongolian Baiti;
+    font-weight: 900;
+    
+}
+.detail{
+    color: white;
+    font-size: 18px;
+    width: 50vw;
+    margin-left:25vw ;
+    margin-bottom: 3.5rem;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.card-main{
+    margin: 40px;
+    box-shadow: 0px 0px 8px 1px rgba(117,117,117,1);
+    border-radius: 1rem;
+    background-color: white;
+    /* margin-left: 18px;
+    margin-right: 18px; */
+    justify-content: center;
+    
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    /* background-color: black; */
+}
+.navbar-comon{
+    background: transparent;
+    position:sticky;
+    top:0;
+}
+.navbar-comon.active{
+    background-color: #08acc4;
+}

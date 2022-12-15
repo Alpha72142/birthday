@@ -1,0 +1,87 @@
+.card-container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin-top: 5rem;
+
+}
+.info{
+    margin-top: 8rem;
+    text-align: center;
+}
+.info h2{
+    font-size: 3vw;
+    font-family: "Lucida Bright";
+    font-weight: 600;
+    color: rgb(83, 83, 83);
+}
+.info p{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 300;
+    color: rgb(163, 163, 163);
+    margin-top: 2rem;
+    margin-left: 21rem;
+    margin-right: 21rem;
+}
+.card-main{
+    display: grid; 
+}
+.avatar{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;    
+}
+.avatar-img{
+    grid-row:1;
+    grid-column: 1/span 2;
+    border-radius:50% ;
+    width: 12.5vw;
+    box-shadow: 0px 0px 8px 1px rgba(117,117,117,1);
+}
+.avatar-body{
+    text-align: center;
+}
+.avatar-name{
+    grid-row: 2;
+    grid-column:1/span 2;
+    margin-top: 2rem;
+    font-size:1.7vw;
+    font-family: "Lucida Bright" ;
+    font-weight: 900;
+    color: rgb(77, 77, 77);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-justify: center;
+    
+}
+.avatar-occupation{
+    text-align: center;
+    grid-row: 3;
+    grid-column: 1/span 2;
+    font-size: 12px;
+    font-weight: 600;
+    color: grey;
+}
+.avatar-info{
+    grid-row: 4;
+    grid-column: 1/span 2;
+    font-size: 14px;
+    color: rgb(168, 168, 168);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    width: 14vw;
+    height: 5rem;
+  
+}
+.footer-social{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.social-logo{
+    width: 1.7rem;
+    margin: .9rem
+}

@@ -1,0 +1,119 @@
+.chatbox-info{
+    text-align: center;
+    margin-top: 10rem;
+
+}
+.chatbox-info h1{
+    font-size: 3vw;
+    font-family: "Lucida Bright";
+    font-weight: 600;
+    color: rgb(83, 83, 83);
+}
+.chatbox-info p{
+    text-align: center;
+    font-size: 1.4vw;
+    font-weight: 300;
+    color: rgb(163, 163, 163);
+    margin-top: 2rem;
+    margin-left: 11.5rem;
+    margin-right: 11.5rem;
+    width: 67vw;
+}
+.wrapper-main{
+    margin:  7% auto;
+}
+.container-main{
+    padding-bottom: 2rem;
+}
+.form-group{
+    position:  relative;
+    margin: 2rem;
+    width: 280px;
+    border-bottom: 1px solid rgb(8, 8, 8);
+    transition:  all 0.2s;
+}
+.form-group::after{
+    content: '';
+    display: block;
+    width: 0%;
+    margin-left:50%;
+    height: 2px;
+    background: rgb(0, 0, 190);
+}
+.form-group:hover::after{
+    width: 100%;
+    margin-left:0%;
+    transition: width .5s, margin-left .5s;
+}
+input[type=text]{
+  border:0;
+  border-radius: 0;
+  /* width: 0%; */
+  /* margin-left: 9rem ;
+  transition: width .5s,margin-left .5s; */
+
+   
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type=text]:focus{
+    
+    outline: 0 !important;
+    box-shadow: none !important;
+    /* width: 280px;
+    margin-left: 0;
+    border-bottom: 2px solid rgb(0, 0, 190);  */
+}
+
+/* .form-select{
+    position:  relative;
+    margin: 2rem;
+    width: 300px;
+    border-bottom: 1px solid rgb(8, 8, 8);
+} */
+/* .hover{
+    border:0;
+    border-radius: 0;
+  
+} */
+/* .hover:focus{
+    outline: 0 !important;
+    box-shadow: none !important;
+    border-bottom: 2px solid rgb(0, 0, 190); 
+    
+} */
+.ph-area{
+    position: absolute;
+    top:0;
+    padding: 7px 0 0 13px;
+    transition: 200ms;
+    opacity:0.5;
+    font-family: Merienda;
+}
+.form-control:focus + .ph-area,
+.form-control:focus:valid + .ph-area{
+    font-size: 80%;
+    transform:  translate3d(0,-100%,0);
+    opacity: 1;
+    color: rgb(0, 0, 0);
+}
+
+.container-main button{
+    
+    position: absolute;
+    left: 45%;
+    margin-top: -4rem;
+    text-align: center;
+    background-color: rgb(75, 75, 192);
+    color: white;
+    font-size: 14px;
+    padding: 1rem;
+    padding-left: 2.6rem;
+    padding-right:2.6rem;
+    border: none;
+    border-radius: 3rem;
+    cursor: pointer;
+}

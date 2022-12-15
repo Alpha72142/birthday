@@ -1,0 +1,48 @@
+.navdropdown-container{
+    display: flex;
+    
+}
+.dropdown-element{
+    padding: 1rem;
+}
+
+.navdropdown-container button{
+    padding: .5rem 2.2rem .5rem 1rem;
+    border: none;
+    background-color: rgb(10, 148, 202);
+    color:white;
+    border-radius: .3rem;
+}
+.navdropdown-container button:focus{
+    outline: none;
+}
+
+
+.navdropdown{
+    background: white;
+    max-width: 15rem;
+    margin: 1rem 0 0 0;
+    border-radius: .3rem;
+}
+
+.navdropdown a:hover{
+background-color: rgba(10, 148, 202, 0.267);
+
+}
+.navdropdown a{
+    color: rgba(0, 0, 0, 0.63);
+    padding: .5rem;
+    padding-left:1.5rem ;
+}
+.navdropdown a:hover{
+    text-decoration: none;
+    border-radius: .3rem;
+    
+}
+
+.animate-icon{
+    position:absolute;
+    margin-left: .5rem;
+    
+    
+}
